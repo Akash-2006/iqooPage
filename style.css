@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#image2 {
+  height: 86.8%;
+  width: 60%;
+  display: inline-block;
+  position: absolute;
+  margin-left: -50%;
+  margin-top: 1.2%;
+  animation: animation 0.95s ease-in-out 1 alternate;
+}
+#image1 {
+  margin-top: 20px;
+  height: 900px;
+  width: 850px;
+}
+@keyframes animation {
+  0% {
+    margin-top: 2.4%;
+    margin-left: -65%;
+  }
+  100% {
+    margin-top: 1.2%;
+    margin-left: -50%;
+  }
+}
+
+main {
+  width: auto;
+  height: auto;
+}
+
+.phonebk {
+  width: 60%;
+  height: 50%;
+  float: left;
+}
+
+#iqoologo {
+  height: 100%;
+  width: 40%;
+  float: right;
+}
+#topSection {
+  height: 1075px;
+  width: auto;
+}
+#img3 {
+  margin-top: 28%;
+  width: 500px;
+  height: 150px;
+}
+#colab {
+  width: 250px;
+  margin-top: 10%;
+  margin-left: 400px;
+}
+
+#headerImg {
+  width: 120px;
+  margin-left: 150px;
+}
+header {
+  margin-top: 35px;
+  display: flex;
+  gap: 10%;
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+}
+
+.topLinks {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑,
+    "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+  font-weight: 200;
+}
+.topLinks:hover {
+  color: #f0b31c;
+}
+
+.features {
+  display: flex;
+  gap: 50px;
+}
+
+#headerImg {
+  margin-top: -50px;
+}
+
+.secondPart {
+  height: 60px;
+  padding-top: 20px;
+  background-color: white;
+  display: flex;
+  gap: 54%;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.secondPart p {
+  margin-left: 9%;
+  font-size: 18px;
+}
+
+.secondPart nav button {
+  margin-top: -10px;
+  width: 85px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 15px;
+  color: white;
+  background-color: #f0b31c;
+  border: 0;
+}
+.secondPart nav button:hover {
+  cursor: pointer;
+  background-color: rgba(240, 179, 28, 0.73);
+}
+.secondPart nav :first-child {
+  font-weight: 900;
+}
+.secondPart nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑,
+    "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+  font-weight: 200;
+}
+.secondPart nav a:hover {
+  font-weight: 900;
+}
+.secondPart nav {
+  display: flex;
+  gap: 30px;
+}
+.forservece {
+  width: 72px;
+  height: 48px;
+}
+.forservece {
+  /* margin-right: -130px; */
+  margin-left: 120px;
+  /* position: absolute; */
+  position: fixed;
+  margin-top: 30%;
+  background-color: #f0b31c;
+  border-radius: 25px;
+  border: 0;
+  width: 72px;
+  height: 48px;
+}
+#customer-care {
+  width: 35px;
+}
